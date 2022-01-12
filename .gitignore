@@ -4,3 +4,7 @@ node_modules/**
 *.xml
 *.xml
 *.xml
+*.html
+dist/static/css/styles.css
+dist/static/css/styles.css
+dist/static/js/libs.js
