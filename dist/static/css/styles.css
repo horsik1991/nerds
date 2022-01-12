@@ -1,11 +1,8 @@
-body {
-  font-style: italic;
-}
-body {
-  background-color: #8a2be2;
-  color: #ffd700;
-  font-weight: bold;
+.header__menu>li {
+  list-style: none;
+  text-transform: uppercase;
+  font: "Roboto", sans-serif;
 }
 @import "../../../../node_modules/normalize.css/normalize.css";
 
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlcy5zdHlsIiwic3R5bGVzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGtCQUFXO0FDQ2I7QURBQTtFQUNFLHlCQUFrQjtFQUNsQixjQUFNO0VBQ04saUJBQWE7QUNFZjtBRG9CUSw4REFBQSIsImZpbGUiOiJzdHlsZXMuY3NzIiwic291cmNlc0NvbnRlbnQiOltudWxsLCJib2R5IHtcbiAgZm9udC1zdHlsZTogaXRhbGljO1xufVxuYm9keSB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM4YTJiZTI7XG4gIGNvbG9yOiAjZmZkNzAwO1xuICBmb250LXdlaWdodDogYm9sZDtcbn1cbkBpbXBvcnQgXCIuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvbm9ybWFsaXplLmNzcy9ub3JtYWxpemUuY3NzXCI7XG4iXX0= */
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlcy5zdHlsIiwic3R5bGVzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHSTtFQUNJLGdCQUFXO0VBQ1gseUJBQWU7RUFDZiwwQkFBYztBQ0Z0QjtBRHdCUSw4REFBQSIsImZpbGUiOiJzdHlsZXMuY3NzIiwic291cmNlc0NvbnRlbnQiOltudWxsLCIuaGVhZGVyX19tZW51PmxpIHtcbiAgbGlzdC1zdHlsZTogbm9uZTtcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgZm9udDogXCJSb2JvdG9cIiwgc2Fucy1zZXJpZjtcbn1cbkBpbXBvcnQgXCIuLi8uLi8uLi8uLi9ub2RlX21vZHVsZXMvbm9ybWFsaXplLmNzcy9ub3JtYWxpemUuY3NzXCI7XG4iXX0= */
