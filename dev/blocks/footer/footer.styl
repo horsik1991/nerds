@@ -1,0 +1,20 @@
+.footer
+  display: grid;
+  grid-template-columns:1fr 2fr;
+  column-gap:60px;
+  width:100%
+  &__social
+    order:-1;
+    display:grid;
+    grid-template-columns:repeat(3,1fr)
+    column-gap:10px;
+    &>article
+      border-radius:50%;
+      background-color: grey;
+      padding:5px
+      align-self:center;
+      width: 60px;
+      height: 60px
+      display:grid;
+      justify-content: center
+      align-items: center
