@@ -7,7 +7,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const autoprefixer = require('gulp-autoprefixer');
 const argv = require('yargs').argv;
 const gulpif = require('gulp-if');
-const concat = require('gulp-concat')
+const concat = require('gulp-concat');
 
 // Работаем со стилями
 
@@ -21,12 +21,7 @@ module.exports = function styles() {
       overrideBrowserslist:  [ "last 4 version" ],
       cascade: false
     }))
-    .pipe(gulpif(argv.prod, cleanCSS({
-      debug: true,
-      compatibility: '*'
-    }, details => {
-      console.log(`${details.name}: Original size:${details.stats.originalSize} - Minified size: ${details.stats.minifiedSize}`)
-    })))
+
     .pipe(gulpif(!argv.prod, sourcemaps.write()))
     .pipe(gulp.dest('dist/static/css'))
 };

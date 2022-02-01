@@ -1,0 +1,64 @@
+section.catalog
+    h2 Добро пожаловать в магазин готовых макетов
+    section.catalog__filter
+        h2 Фильтр товаров
+        form
+            fieldset
+                legend Стоимость
+                div
+                    input(type="range" min="0" max="15000" step="1000" value="0")
+                div
+                    span ОТ
+                    input(type="text" placeholder="0")
+                    span ДО
+                    input(type="text" placeholder="15000")
+            fieldset
+                legend Сетка
+                div
+                    input(type="radio" id="grid1"  name="grid" checked value="Адаптивная")
+                    label(for="grid1") Адаптивная
+                div
+                    input(type="radio" id="grid2" name="grid"  value="Резиновая")
+                    label(for="grid2") Резиновая
+                div
+                    input(type="radio" id="grid3" name="grid"  value="Фиксированная")
+                    label(for="grid3") Фиксированная
+
+    section.catalog__products
+        section.catalog__sorted
+            p Сортировать:
+            button По цене
+            button По типу
+            button По функционалу
+            span Стрелка вверх
+            span Стрелка вниз
+        section.catalog__items
+            ul.catalog__menu
+                li
+                    a(href="#") Отдельный товар
+                li
+                    a(href="#") Отдельный товар
+                li
+                    a(href="#") Отдельный товар
+                li
+                    a(href="#") Отдельный товар
+                li
+                    a(href="#") Отдельный товар
+                li
+                    a(href="#") Отдельный товар
+        section.catalog__pagination
+            ul
+                li
+                    a() Предыдущая
+                li
+                    a() 1
+                li
+                    a(href="#") 2
+                li
+                    a(href="#") 3
+                li
+                    a(href="#") Следующая
+
+
+
+

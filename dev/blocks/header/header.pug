@@ -1,14 +1,15 @@
 header.header
-    nav
-        a
-            img.header__logo(alt="Дизайн-студия Nerds")
-        ul.header__menu
-            li
-                a(href="#") Студия
-            li
-                a(href="#") Клиенты
-            li
-                a(href="#") Магазин
-            li
-                a(href="#") Контакты
-        a(href="#") Корзина
+    .wrapper
+        nav.header__nav
+            a.header__logo
+                img.header__logo--img(src="static/images/icons/nerds-logo.svg" alt="Дизайн-студия Nerds")
+            ul.header__menu
+                li
+                    a.header__menu--item(href="#") Студия
+                li
+                    a.header__menu--item(href="#") Клиенты
+                li
+                    a.header__menu--item(href="pages/catalog.html") Магазин
+                li
+                    a.header__menu--item(href="#") Контакты
+            a(href="#").header__cart Корзина

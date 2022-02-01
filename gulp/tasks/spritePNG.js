@@ -24,7 +24,7 @@ module.exports = function spritePNG() {
 
   // Собираем SCSS
   const cssStream = spriteData.css
-    .pipe($.main.dest('dev/blocks/styles/utils/'));
+    .pipe($.main.dest('dev/blocks/styles/utilits/'));
 
   return merge(imgStream, cssStream);
 };

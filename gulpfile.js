@@ -10,8 +10,9 @@ const pug2html = require('./gulp/tasks/pug');
 const spriteSVG = require('./gulp/tasks/spriteSVG');
 const serve = require('./gulp/tasks/serve');
 const spritePNG = require('./gulp/tasks/spritePNG');
+const utilits = require('./gulp/tasks/utilits');
 //const favicons = require('./gulp/tasks/favicons');
-const dev = gulp.parallel(pug2html, script, vendors, styles, altcss, imageMinify, spriteSVG, spritePNG, fonts);
+const dev = gulp.parallel(pug2html, script, vendors, utilits, styles, altcss, imageMinify, spriteSVG, spritePNG, fonts);
 //noinspection JSAnnotator
 global.$ = {
     main: require('gulp'),
@@ -25,5 +26,5 @@ exports.default = gulp.series(
 );
 //Для теста модулей
 exports.test = gulp.series(
-    styles
+    utilits
 );
