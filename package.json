@@ -9,7 +9,7 @@
     "style:lint": "stylelint ./dev/blocks/styles/**/*.styl --syntax styl",
     "style:fix": "stylelint './dev/blocks/styles/**/*.styl' --syntax styl --fix"
   },
-  "author": "Саламатин Анатолий",
+  "author": "Olga Arbuzova",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.8.7",
