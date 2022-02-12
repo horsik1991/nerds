@@ -1,11 +1,111 @@
 .catalog
-  display:grid;
-  grid-template-columns: 240px auto;
+  &__innerWrap
+    display:grid;
+    grid-template-columns: 240px 1fr;
   &__title
-    text-transform: uppercase;
-    padding-top:80px;
-    padding-bottom:90px;
-    grid-column:1/-1;
-  &__filter
-    &>h2
-      display:none
+    padding: 80px
+    text-transform: uppercase
+    background-color: #eee
+  &__button
+    border:0
+    border-bottom:2px dotted #00CA74;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  &__left
+    margin-top: 20px
+  &__right
+    display:grid;
+    grid-template-rows:min-content 1fr min-content
+  &__sorted
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+    &> *:not(:first-child)
+      margin-left: 42px;
+  &__arrows
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  &__paginationList
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 35px
+  &__paginationItems
+    margin-top:10px;
+    padding: 15px;
+    margin-bottom:10px;
+    border:2px solid #f4f4f4;
+    border-radius:2px;
+    &:not(:first-child)
+      margin-left: 5px;
+  &__menu
+    display grid
+    grid-template-columns repeat(2, 240px)
+    gap:80px;
+    justify-content: center
+  &__itemWrap
+    display: flex
+    flex-direction: column
+  &__itemCircle
+    border-radius 50%
+    height: 10px
+    width: 10px
+    background-color: #fff
+    &:not(:first-child)
+      margin-left: 7px
+  &__itemHeader
+    background-color: #f4f4f4
+    height: 30px
+    display: flex
+    justify-content: flex-start
+    padding-left: 13px
+    align-items: center;
+  &__itemImg
+    background #f4f4f4 no-repeat 50% 50%
+    max-width: 100%
+    object-fit contain
+    text-align: center
+  &__controllerWrap
+    display: flex
+    justify-content: center
+    margin: 10px
+    position: relative
+    align-items: center
+  &__lineSubstrate
+    width: 100%
+    height: 2px;
+    background-color: #f4f4f4
+  &__lineFill
+    width: 100%
+    height: 2px;
+    background-color: #00CA74
+    position: absolute;
+  &__controller
+    display: block
+    border-radius:50%
+    width: 3px
+    height: 3px
+    border:9px solid #fff;
+    box-shadow: 1px 2px 0 #a0a0a0;
+    background-color: #a0a0a0;
+    cursor: pointer;
+    z-index: 2;
+  &__controller.second
+    order:4
+  &__filterForm
+    &> fieldset
+      border:0;
+      margin-bottom:10px;
+      &>legend
+        text-transform: uppercase
+  &__price
+    display: flex;
+  &__inputPrice
+    width: 80px
+    background-color: #f6f6f6
+    text-align: center
+    display: flex
+    border-radius 2px

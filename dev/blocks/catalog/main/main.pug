@@ -1,64 +1,119 @@
-section.catalog.wrapper
-    h2.catalog__title Добро пожаловать в магазин готовых макетов
-    section.catalog__filter
-        h2 Фильтр товаров
-        form.catalog__filterForm
-            fieldset
-                legend Стоимость
-                div
-                    input(type="range" min="0" max="15000" step="1000" value="0")
-                div
-                    span ОТ
-                    input(type="text" placeholder="0")
-                    span ДО
-                    input(type="text" placeholder="15000")
-            fieldset
-                legend Сетка
-                div
-                    input(type="radio" id="grid1"  name="grid" checked value="Адаптивная")
-                    label(for="grid1") Адаптивная
-                div
-                    input(type="radio" id="grid2" name="grid"  value="Резиновая")
-                    label(for="grid2") Резиновая
-                div
-                    input(type="radio" id="grid3" name="grid"  value="Фиксированная")
-                    label(for="grid3") Фиксированная
+section.catalog
+    .catalog__title
+        h2.wrapper Добро пожаловать в магазин готовых макетов
+    .wrapper.catalog__innerWrap
+        .catalog__left
+            section.catalog__filter
+                h2.visuallyHidden Фильтр товаров
+                form.catalog__filterForm
+                    fieldset
+                        legend Стоимость
+                        div.catalog__controllerWrap
+                            span.catalog__controller.first
+                            span.catalog__controller.second
+                            span.catalog__lineSubstrate
+                            span.catalog__lineFill
+                        div.catalog__price
+                            span ОТ
+                            input.catalog__inputPrice(type="text" placeholder="0")
+                            span ДО
+                            input.catalog__inputPrice(type="text" placeholder="15000")
+                    fieldset
+                        legend Сетка
+                        div
+                            input(type="radio" id="grid1"  name="grid" checked value="Адаптивная")
+                            label(for="grid1") Адаптивная
+                        div
+                            input(type="radio" id="grid2" name="grid"  value="Резиновая")
+                            label(for="grid2") Резиновая
+                        div
+                            input(type="radio" id="grid3" name="grid"  value="Фиксированная")
+                            label(for="grid3") Фиксированная
+                    fieldset
+                        legend Особенность
+                        div
+                            input(type="checkbox" value="slider" checked)
+                            label Слайдер
+                        div
+                            input(type="checkbox" value="features")
+                            label Блок преимуществ
+                        div
+                            input(type="checkbox" value="news" checked)
+                            label Новости
+                        div
+                            input(type="checkbox" value="gallery")
+                            label Галерея
+                        div
+                            input(type="checkbox" value="cart")
+                            label Корзина
+        .catalog__right
+            section.catalog__sorted
+                p Сортировать:
+                button.catalog__button По цене
+                button.catalog__button По типу
+                button.catalog__button По функционалу
+                .catalog__arrows
+                    div.catalog__arrowDown(data-descrition="Стрелка вниз")
+                        svg(width='12' height='11' xmlns='http://www.w3.org/2000/svg')
+                            path#svg_9(transform='rotate(180, 6.00962, 5.41047)' d='m-0.02609,10.69172l6.03572,-10.5625l6.03572,10.5625l-12.07143,0z' stroke-opacity='null' stroke-width='0' stroke='#000' fill='#00ca74')
+                            path#svg_10(d='m34.36359,8.08703l0.745,-1.30375l0.745,1.30375l-1.49,0z' stroke-opacity='null' stroke-width='0' stroke='#000' fill='#00ca74')
 
-    section.catalog__products
-        section.catalog__sorted
-            p Сортировать:
-            button По цене
-            button По типу
-            button По функционалу
-            span Стрелка вверх
-            span Стрелка вниз
-        section.catalog__items
-            ul.catalog__menu
-                li
-                    a(href="#") Отдельный товар
-                li
-                    a(href="#") Отдельный товар
-                li
-                    a(href="#") Отдельный товар
-                li
-                    a(href="#") Отдельный товар
-                li
-                    a(href="#") Отдельный товар
-                li
-                    a(href="#") Отдельный товар
-        section.catalog__pagination
-            ul
-                li
-                    a() Предыдущая
-                li
-                    a() 1
-                li
-                    a(href="#") 2
-                li
-                    a(href="#") 3
-                li
-                    a(href="#") Следующая
+                    div.catalog__arrowUp(data-descrition="Стрелка вверх")
+                        svg(width='12' height='11' xmlns='http://www.w3.org/2000/svg')
+                            path#svg_6(d='m0.06462,10.75328l5.95089,-10.41406l5.95089,10.41406l-11.90178,0z' fill-opacity='null' stroke-opacity='null' stroke-width='0' stroke='#000' fill='#c1c1c1')
+            section.catalog__items
+                ul.catalog__menu
+                    li
+                        a(href="#")
+                            .catalog__itemWrap
+                                .catalog__itemHeader
+                                    span.catalog__itemCircle
+                                    span.catalog__itemCircle
+                                    span.catalog__itemCircle
+                                img.catalog__itemImg(src="static/images/content/3.jpg" alt="Проект1" width="240" height="240")
+                    li
+                        a(href="#")
+                            .catalog__itemWrap
+                                .catalog__itemHeader
+                                    span.catalog__itemCircle
+                                    span.catalog__itemCircle
+                                    span.catalog__itemCircle
+                                img.catalog__itemImg(src="static/images/content/1.jpg" alt="Проект1" width="240" height="240")
+                    li
+                        a(href="#")
+                            .catalog__itemWrap
+                                .catalog__itemHeader
+                                    span.catalog__itemCircle
+                                    span.catalog__itemCircle
+                                    span.catalog__itemCircle
+                                img.catalog__itemImg(src="static/images/content/2.jpg" alt="Проект1" width="240" height="240")
 
+                    li
+                        a(href="#")
+                            .catalog__itemWrap
+                                .catalog__itemHeader
+                                    span.catalog__itemCircle
+                                    span.catalog__itemCircle
+                                    span.catalog__itemCircle
+                                img.catalog__itemImg(src="static/images/content/prod3.jpg" alt="Проект1" width="240" height="240")
+                    li
+                        a(href="#")
+                            .catalog__itemWrap
+                                .catalog__itemHeader
+                                    span.catalog__itemCircle
+                                    span.catalog__itemCircle
+                                    span.catalog__itemCircle
+                                img.catalog__itemImg(src="static/images/content/prod3.jpg" alt="Проект1" width="240" height="240")
 
-
-
+            section.catalog__pagination
+                ul.catalog__paginationList
+                    li.catalog__paginationItems.visuallyHidden
+                        a.catalog__paginationLink() Предыдущая
+                    li.catalog__paginationItems
+                        a.catalog__paginationLink() 1
+                    li.catalog__paginationItems
+                        a.catalog__paginationLink(href="#") 2
+                    li.catalog__paginationItems
+                        a.catalog__paginationLink(href="#") 3
+                    li.catalog__paginationItems
+                        a.catalog__paginationLink(href="#") Следующая
