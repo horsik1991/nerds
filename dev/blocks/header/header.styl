@@ -4,7 +4,7 @@
     &__menu>li
         list-style none
         text-transform uppercase
-        font: "Roboto", sans-serif
+        font:600 14px/20px "Roboto", sans-serif;
     &__cart
         width:100px;
         &:before
@@ -19,11 +19,28 @@
             text-decoration:none
             color:#000;
             text-transform: uppercase
+    &__menu
+        align-items: flex-end;
+        padding-bottom: 10px;
     &__logo
         margin-right: auto;
         width: 140px
     &__cart
         margin-left: 60px;
+        align-self: flex-end;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        color:#000;
+        position: relative;
+        &:before
+            content:""
+            position: absolute;
+            background-image url("../images/icons/cart-icon.svg");
+            width:30px;
+            height: 30px;
+            left: -20px;
+            background-clip: content-box;
+            background-repeat: no-repeat;
     &__nav
         width: 880px;
 

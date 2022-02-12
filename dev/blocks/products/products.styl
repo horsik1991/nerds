@@ -3,6 +3,10 @@
   margin-bottom: 155px
   &__list
     display:grid;
-    grid-template-areas("column column column")
     column-gap:80px
+    row-gap:20px
     grid-template-columns:repeat(3, 1fr)
+  &__item
+    display:grid;
+  &__button
+    justify-self start;
