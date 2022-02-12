@@ -2,5 +2,32 @@
   display: grid;
   grid-template-columns: 1fr 240px;
   margin-bottom:75px;
+  grid-template-areas "title logo"  "description since"  "what_make how_make";
+  //&__innerWrap
+  //  display:grid;
+  &__logo
+    grid-area:logo;
   &__title
-    grid-column:1/-1;
+    grid-area: title;
+  &__subtitle
+    text-transform: uppercase
+    grid-area: what_make
+  &__since + &__subtitle
+    grid-area:how_make
+  &__since
+    grid-area:since
+  &__description
+    grid-area: description
+  &__list
+    display: flex;
+    align-items: center;
+    &:before
+      content:"";
+      height:2px;
+      width:25px;
+      margin-right: 12px;
+      background-color: tomato;
+      flex-shrink:0;
+  &__list:not(:last-child)
+    margin-bottom:35px;
+
