@@ -1,20 +1,49 @@
 .gallery
   background-color: #eee;
-  padding-top:50px;
+  padding-top:15px;
   padding-bottom:80px;
-  &__title
-    font-size: 36px;
+  &__subTitle
+    font: 37px/37px "Roboto", sans-serif;
+    margin: 0
+    margin-top: 30px
+  &__description
+    margin-top: 15px;
+    font: 18px/22px "Roboto", sans-setif;
   &__list
     display: grid;
     grid-template-columns 380px auto 350px
     gap-column:20px;
-  &__mainTitle
-    display: none;
   &__button
-    padding: 20px 10px;
-    margin-right: 140px;
+    display: inline-block;
+    padding: 12px 70px;
     font-size: 12px;
     font-weight: bold;
     text-align: center;
+    margin-top: 11px;
   &__radio
     align-self:flex-end;
+    position: relative;
+    bottom: 33px;
+    left: 15px;
+    display: flex
+    & > label
+      display: block;
+      position: relative
+      cursor: pointer
+      &:not(:first-of-type)
+        margin-left: 5px;
+    & > input + label::before
+      content:""
+      width: 5px;
+      border: 4px solid #fff;
+      height: 5px;
+      display: inline-block;
+      position: relative;
+      left: 9px;
+      top: 1px;
+      border-radius: 50%;
+      background-color: #fff;
+    & > input:checked + label::before
+      transition: background-color ease 0.5s
+      background-color: #c1c1c1
+

@@ -1,15 +1,20 @@
 section.gallery
     .wrapper
-        h1.gallery__mainTitle Дизайн-студия Nerds
+        h1.gallery__mainTitle.visuallyHidden Дизайн-студия Nerds
         .gallery__list
             .gallery__innerWrap
-                h2 Долго, дорого, скрупулезно
-                p Математически выверенный дизайн  для вашего сайта или мобильного приложения
+                h2.gallery__subTitle Долго, дорого, скрупулезно
+                p.gallery__description Математически выверенный дизайн
+                    br
+                    | для вашего сайта или мобильного приложения
                 a.button.gallery__button(href="#") Узнать больше
             .gallery__innerWrap.gallery__radio
-                input(type="radio" name="main-slider" value="1" checked)
-                input(type="radio" name="main-slider" value="2" )
-                input(type="radio" name="main-slider" value="3" )
+                input.visuallyHidden( id="r1" type="radio" name="main-slider" value="1" checked)
+                label(for="r1")
+                input.visuallyHidden( id="r2" type="radio" name="main-slider" value="2" )
+                label(for="r2")
+                input.visuallyHidden( id="r3" type="radio" name="main-slider" value="3" )
+                label(for="r3")
             .gallery__innerWrap
                 img(src="static/images/content/slider/index-slide-1.png" width="350" height="250")
 
