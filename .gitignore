@@ -2,3 +2,4 @@
 /dist/*
 .idea/workspace.xml
 
+dist/static/css/styles.css
