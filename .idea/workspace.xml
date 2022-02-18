@@ -2,51 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d04646d9-f2c8-4bba-b640-63e28856fe1c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensans.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensans/opensans.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensans/opensans.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensans/opensans.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansbold/opensansbold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansbold/opensansbold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansbold/opensansbold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansbolditalic/opensansbolditalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansbolditalic/opensansbolditalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansbolditalic/opensansbolditalic.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansextrabold/opensansextrabold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansextrabold/opensansextrabold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansextrabold/opensansextrabold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansextrabolditalic/opensansextrabolditalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansextrabolditalic/opensansextrabolditalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansextrabolditalic/opensansextrabolditalic.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansitalic/opensansitalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansitalic/opensansitalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensansitalic/opensansitalic.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensanslight/opensanslight.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensanslight/opensanslight.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensanslight/opensanslight.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensanslightitalic/opensanslightitalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensanslightitalic/opensanslightitalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensanslightitalic/opensanslightitalic.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensanssemibold/opensanssemibold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensanssemibold/opensanssemibold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensanssemibold/opensanssemibold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensanssemibolditalic/opensanssemibolditalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensanssemibolditalic/opensanssemibolditalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/fonts/opensans/opensanssemibolditalic/opensanssemibolditalic.woff2" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/about/about.pug" afterPath="$PROJECT_DIR$/dev/blocks/about/about.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/about/about.styl" afterPath="$PROJECT_DIR$/dev/blocks/about/about.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/catalog/main/catalog-main.styl" afterPath="$PROJECT_DIR$/dev/blocks/catalog/main/catalog-main.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/catalog/main/main.pug" afterPath="$PROJECT_DIR$/dev/blocks/catalog/main/main.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/gallery/gallery.styl" afterPath="$PROJECT_DIR$/dev/blocks/gallery/gallery.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/header/header.pug" afterPath="$PROJECT_DIR$/dev/blocks/header/header.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/header/header.styl" afterPath="$PROJECT_DIR$/dev/blocks/header/header.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/products/products.pug" afterPath="$PROJECT_DIR$/dev/blocks/products/products.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/products/products.styl" afterPath="$PROJECT_DIR$/dev/blocks/products/products.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/static/utilits/fonts.styl" afterPath="$PROJECT_DIR$/dev/static/utilits/fonts.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/static/utilits/global.styl" afterPath="$PROJECT_DIR$/dev/static/utilits/global.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/css/styles.css" afterPath="$PROJECT_DIR$/dist/static/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/css/utilits/utilits.css" afterPath="$PROJECT_DIR$/dist/static/css/utilits/utilits.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/tasks/fonts.js" afterPath="$PROJECT_DIR$/gulp/tasks/fonts.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,45 +21,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/blocks/catalog/main/main.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding>
-                <element signature="n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#div#1;n#div#1;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#section#0;n#div#1;n#div#1;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#div#1;n#div#1;n#section#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="catalog-main.styl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/blocks/catalog/main/catalog-main.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="94" column="12" lean-forward="false" selection-start-line="91" selection-start-column="10" selection-end-line="94" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/blocks/products/products.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global.styl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="global.styl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dev/static/utilits/global.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="17">
               <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="48" />
               <folding />
             </state>
@@ -142,12 +70,9 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/dev/blocks/layout/main.pug" />
-        <option value="$PROJECT_DIR$/dev/blocks/header/header.pug" />
         <option value="$PROJECT_DIR$/dev/blocks/partners/partners.styl" />
         <option value="$PROJECT_DIR$/dev/blocks/map/map.styl" />
         <option value="$PROJECT_DIR$/gulp/tasks/fonts.js" />
-        <option value="$PROJECT_DIR$/dev/static/utilits/fonts.styl" />
-        <option value="$PROJECT_DIR$/dev/blocks/header/header.styl" />
         <option value="$PROJECT_DIR$/dev/blocks/gallery/gallery.styl" />
         <option value="$PROJECT_DIR$/dev/blocks/products/products.pug" />
         <option value="$PROJECT_DIR$/dev/blocks/products/products.styl" />
@@ -155,7 +80,10 @@
         <option value="$PROJECT_DIR$/dev/blocks/about/about.styl" />
         <option value="$PROJECT_DIR$/dev/static/utilits/global.styl" />
         <option value="$PROJECT_DIR$/dev/blocks/catalog/main/main.pug" />
+        <option value="$PROJECT_DIR$/dev/static/utilits/fonts.styl" />
         <option value="$PROJECT_DIR$/dev/blocks/catalog/main/catalog-main.styl" />
+        <option value="$PROJECT_DIR$/dev/blocks/header/header.pug" />
+        <option value="$PROJECT_DIR$/dev/blocks/header/header.styl" />
       </list>
     </option>
   </component>
@@ -306,62 +234,14 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nerds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nerds" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gallery" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nerds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nerds" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="header" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -507,18 +387,22 @@
       <workItem from="1644336177074" duration="596000" />
       <workItem from="1644468496589" duration="13287000" />
       <workItem from="1644509544524" duration="1743000" />
-      <workItem from="1644648535806" duration="365000" />
+      <workItem from="1644648535806" duration="1561000" />
+      <workItem from="1644748850125" duration="4290000" />
+      <workItem from="1645009007302" duration="1195000" />
+      <workItem from="1645178642692" duration="1738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104896000" />
+    <option name="totallyTimeSpent" value="113315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29601228" sideWeight="0.518797" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3243865" sideWeight="0.48120302" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3404908" sideWeight="0.48120302" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -526,7 +410,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -773,13 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/header/header.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/blocks/partners/partners.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -798,20 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/utilits/fonts.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/header/header.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -871,14 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/utilits/global.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/blocks/gallery/gallery.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -886,18 +741,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/products/products.pug">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/catalog/main/catalog-main.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="56" />
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/blocks/catalog/main/main.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="17">
+          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
           <folding>
             <element signature="n#div#0;n#section#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#1;n#div#1;n#section#0;n#!!top" expanded="false" />
@@ -907,10 +762,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/catalog/main/catalog-main.styl">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/products/products.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="94" column="12" lean-forward="false" selection-start-line="91" selection-start-column="10" selection-end-line="94" selection-end-column="12" />
+        <state relative-caret-position="187">
+          <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/utilits/fonts.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/blocks/header/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="115" lean-forward="false" selection-start-line="4" selection-start-column="115" selection-end-line="4" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/blocks/header/header.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/utilits/global.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="48" />
           <folding />
         </state>
       </provider>
