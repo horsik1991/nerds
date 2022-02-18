@@ -1,9 +1,4 @@
-# Стартовый шаблон автора канала FrontCoder
-Используется связка `Gulp` + `Pug` + `SCSS` + `BrowserSync` + `Linters`
+# Учебный проект Nerds (автор - HTML ACADEMY)
+Используется связка `Gulp` + `Pug` + `Stylus`
 
-## Установка
-Склонировать репозиторий и выполнить npm install
 
-## Каналы связи
-- [youtube канал](https://www.youtube.com/c/frontcoder)
-- [чат в телеграм](https://t.me/frontcoder)
