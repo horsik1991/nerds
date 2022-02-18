@@ -1,6 +1,4 @@
 /node_modules/*
 /dist/*
-dist/static/css/styles.css
-dist/static/css/utilits/utilits.css
 .idea/workspace.xml
-.idea/workspace.xml
+
