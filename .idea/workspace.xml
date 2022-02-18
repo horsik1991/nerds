@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d04646d9-f2c8-4bba-b640-63e28856fe1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/catalog/main/catalog-main.styl" afterPath="$PROJECT_DIR$/dev/blocks/catalog/main/catalog-main.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/catalog/main/main.pug" afterPath="$PROJECT_DIR$/dev/blocks/catalog/main/main.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/header/header.pug" afterPath="$PROJECT_DIR$/dev/blocks/header/header.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/header/header.styl" afterPath="$PROJECT_DIR$/dev/blocks/header/header.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/static/utilits/fonts.styl" afterPath="$PROJECT_DIR$/dev/static/utilits/fonts.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/css/styles.css" afterPath="$PROJECT_DIR$/dist/static/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/css/utilits/utilits.css" afterPath="$PROJECT_DIR$/dist/static/css/utilits/utilits.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/blocks/about/about.pug" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/blocks/about/about.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/blocks/main/main.pug" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dev/blocks/about/about.pug" afterPath="$PROJECT_DIR$/dev/blocks/index/about/about.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dev/blocks/about/about.styl" afterPath="$PROJECT_DIR$/dev/blocks/index/about/about.styl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dev/blocks/footer/footer.pug" afterPath="$PROJECT_DIR$/dev/blocks/common/footer/footer.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dev/blocks/footer/footer.styl" afterPath="$PROJECT_DIR$/dev/blocks/common/footer/footer.styl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dev/blocks/gallery/gallery.pug" afterPath="$PROJECT_DIR$/dev/blocks/index/gallery/gallery.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dev/blocks/gallery/gallery.styl" afterPath="$PROJECT_DIR$/dev/blocks/index/gallery/gallery.styl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dev/blocks/header/header.pug" afterPath="$PROJECT_DIR$/dev/blocks/common/header/header.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dev/blocks/header/header.styl" afterPath="$PROJECT_DIR$/dev/blocks/common/header/header.styl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dev/blocks/map/map.pug" afterPath="$PROJECT_DIR$/dev/blocks/index/map/map.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dev/blocks/map/map.styl" afterPath="$PROJECT_DIR$/dev/blocks/index/map/map.styl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dev/blocks/partners/partners.pug" afterPath="$PROJECT_DIR$/dev/blocks/index/partners/partners.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dev/blocks/partners/partners.styl" afterPath="$PROJECT_DIR$/dev/blocks/index/partners/partners.styl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dev/blocks/products/products.pug" afterPath="$PROJECT_DIR$/dev/blocks/index/products/products.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dev/blocks/products/products.styl" afterPath="$PROJECT_DIR$/dev/blocks/index/products/products.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/catalog.pug" afterPath="$PROJECT_DIR$/dev/blocks/catalog.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/index.pug" afterPath="$PROJECT_DIR$/dev/blocks/index.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/blocks/layout/main.pug" afterPath="$PROJECT_DIR$/dev/blocks/layout/main.pug" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +33,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="global.styl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="global.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/static/utilits/global.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="48" />
+            <state relative-caret-position="102">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/blocks/index.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalog.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/blocks/catalog.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev/blocks/layout/main.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -47,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dev/blocks/index.pug" />
         <option value="$PROJECT_DIR$/dist/static/css/styles.css" />
         <option value="$PROJECT_DIR$/dev/blocks/popup/popup.styl" />
         <option value="$PROJECT_DIR$/dev/blocks/popup/popup.pug" />
@@ -84,6 +125,7 @@
         <option value="$PROJECT_DIR$/dev/blocks/catalog/main/catalog-main.styl" />
         <option value="$PROJECT_DIR$/dev/blocks/header/header.pug" />
         <option value="$PROJECT_DIR$/dev/blocks/header/header.styl" />
+        <option value="$PROJECT_DIR$/dev/blocks/index.pug" />
       </list>
     </option>
   </component>
@@ -194,24 +236,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nerds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nerds" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="blocks" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -234,7 +258,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="header" />
+              <option name="myItemId" value="index" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -258,6 +282,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\Nerds\nerds\dev\blocks\index" />
+      <recent name="C:\projects\Nerds\nerds\dev\blocks\common" />
       <recent name="C:\projects\Nerds\nerds\dev\blocks" />
       <recent name="C:\projects\Nerds\nerds\dev\blocks\pages" />
       <recent name="C:\projects\Nerds\nerds\dev\static" />
@@ -390,19 +416,18 @@
       <workItem from="1644648535806" duration="1561000" />
       <workItem from="1644748850125" duration="4290000" />
       <workItem from="1645009007302" duration="1195000" />
-      <workItem from="1645178642692" duration="1738000" />
+      <workItem from="1645178642692" duration="2500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113315000" />
+    <option name="totallyTimeSpent" value="114077000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="1" />
-    <editor active="true" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29601228" sideWeight="0.518797" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3404908" sideWeight="0.48120302" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3404908" sideWeight="0.48120302" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -433,35 +458,35 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dev/blocks/gallery/gallery.pug">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/gallery/gallery.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/header/header.styl">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/common/header/header.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/products/products.pug">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/products/products.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/about/about.pug">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/about/about.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/partners/partners.pug">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/partners/partners.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
@@ -475,21 +500,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/map/map.styl">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/map/map.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/partners/partners.styl">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/partners/partners.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/map/map.pug">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/map/map.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
@@ -531,24 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/catalog.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulp/tasks/imageMinify.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -559,21 +570,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/main/main.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/partners/partners.pug">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/partners/partners.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/map/map.pug">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/map/map.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
@@ -594,14 +598,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/footer/footer.pug">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/common/footer/footer.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/footer/footer.styl">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/common/footer/footer.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
@@ -650,21 +654,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/layout/main.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/partners/partners.styl">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/partners/partners.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/map/map.styl">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/map/map.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
@@ -678,7 +675,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/gallery/gallery.styl">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/gallery/gallery.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -713,28 +710,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/products/products.styl">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/products/products.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/about/about.styl">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/about/about.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/about/about.pug">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/about/about.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/gallery/gallery.pug">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/gallery/gallery.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
@@ -762,7 +759,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/products/products.pug">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index/products/products.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="56" />
@@ -778,7 +775,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/header/header.pug">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/common/header/header.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="115" lean-forward="false" selection-start-line="4" selection-start-column="115" selection-end-line="4" selection-end-column="115" />
@@ -786,7 +783,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/blocks/header/header.styl">
+    <entry file="file://$PROJECT_DIR$/dev/blocks/common/header/header.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
@@ -796,8 +793,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/utilits/global.styl">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/blocks/catalog.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/blocks/layout/main.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/blocks/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/blocks/main/main.pug">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="48" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="28" />
           <folding />
         </state>
       </provider>
