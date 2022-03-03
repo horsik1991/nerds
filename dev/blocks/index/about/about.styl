@@ -1,23 +1,45 @@
+.about.wrapper
+  padding-left: 0
 .about
   display: grid;
   grid-template-columns: 1fr 240px;
   margin-bottom:75px;
   grid-template-areas "title logo"  "description since"  "what_make how_make";
-  //&__innerWrap
-  //  display:grid;
+  margin-top: 80px
+  padding-top: 40px
   &__logo
     grid-area:logo;
+    justify-self: center;
+    align-self: center;
+    position: relative;
+    top: 8px;
+    left: 15px;
   &__title
     grid-area: title;
+    position: relative;
+    top: 3px;
+    font: 400 36px/37px "RobotoMedium", sans-serif;
+    margin-top: 28px;
+    margin-bottom: 0
   &__subtitle
     text-transform: uppercase
     grid-area: what_make
+    margin-top: 43px;
+    font: 400 16px/28px $font-type;
   &__since + &__subtitle
     grid-area:how_make
   &__since
     grid-area:since
+    text-transform: uppercase;
+    align-self: center;
+    justify-self: center;
+    margin-left: 21px;
   &__description
     grid-area: description
+    margin: 0;
+    margin-top: 21px;
+    position: relative;
+    line-height 21px
   &__list
     display: flex;
     align-items: center;

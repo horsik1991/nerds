@@ -11,7 +11,7 @@ const gulp = require('gulp'),
       serve = require('./gulp/tasks/serve'),
       spritePNG = require('./gulp/tasks/spritePNG'),
       utilits = require('./gulp/tasks/utilits'),
-      dev = gulp.parallel(pug2html, script, vendors, utilits, styles, altcss, imageMinify, spriteSVG, spritePNG, fonts);
+      dev = gulp.parallel(pug2html, script, vendors, altcss, styles,  imageMinify, spriteSVG, spritePNG, fonts);
 
 
 global.$ = {

@@ -1,6 +1,7 @@
+.products ~.wrapper
+  border-top:2px solid #808080
 .products
   margin-top: 80px;
-  margin-bottom: 155px
   &__list
     display:grid;
     column-gap:80px
@@ -8,5 +9,25 @@
     grid-template-columns:repeat(3, 1fr)
   &__item
     display:grid;
+    grid-template-rows: 125px 65px 1fr min-content;
   &__button
     justify-self start;
+    padding: 10px 40px;
+    margin-top: 25px;
+    border: 0;
+    border-radius: 2px;
+  &__subTitle
+    text-transform: uppercase
+    font: 500 17px/23px $font-type;
+    margin-top: 25px;
+    letter-spacing: 0.5px
+  &__description
+    margin: 0
+    font: 600 15px/23px $font-type;
+    letter-spacing: -0.1px;
+.first
+  background-color: #FB565A
+.second
+  background-color: #00CA74
+.third
+  background-color: #EFC849

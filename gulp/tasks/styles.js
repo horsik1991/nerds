@@ -12,7 +12,7 @@ const concat = require('gulp-concat');
 // Работаем со стилями
 
 module.exports = function styles() {
-  return gulp.src(['dev/blocks/**/*.styl'])
+  return gulp.src(['dev/static/utilits/vars.styl','dev/static/utilits/*.styl','dev/blocks/**/*.styl'])
     .pipe(concat('styles.styl'))
     .pipe(plumber())
     .pipe(gulpif(!argv.prod, sourcemaps.init()))
